@@ -39,11 +39,12 @@ inquirer
         name: "Project Test(s)",
     },
 
-    // {
-    //     type: "input",
-    //     message: "Enter license(s) for this project.",
-    //     name: "Project License(s)",
-    // },
+    {
+        type: "checkbox",
+        message: "Select license(s) for this project.",
+        name: "Project License(s)",
+        choices: ["MIT", "Harvard"]
+    },
 
     {
         type: "input",
