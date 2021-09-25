@@ -1,0 +1,25 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "Application aimed at allowing one to create a simple README-Generator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chtanicala/Readme-Generator.git"
+  },
+  "keywords": [
+    "README"
+  ],
+  "author": "Christian Tanicala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chtanicala/Readme-Generator/issues"
+  },
+  "homepage": "https://github.com/Chtanicala/Readme-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.5"
+  }
+}
