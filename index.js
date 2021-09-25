@@ -61,6 +61,37 @@ inquirer
   ])
   .then((answers) => {
     console.log(answers)
+    let output = 
+    `# ${answers["Project Title"]}
+
+    ## Table of Contents
+    - [Description](#Description)
+    - [Installation](#Installation)
+    - [Usage](#Usage)
+    - [Contributing](#Contributing)
+    - [Tests](#Tests)
+    - [License](#License)
+    - [Questions](#Questions)
+    
+    ## Description
+    - ${answers["Project Description"]}
+    
+    ## Installation
+    - ${answers["Project Input"]}
+    ## Usage
+    - ${answers["Project Usage"]}
+    ## Contributing
+    - ${answers["Project Contributor(s)"]}
+    ## Tests
+    - ${answers["Project Test(s)"]}
+    
+    ## License
+    - LICENSEINPUT
+    
+    ## Questions
+    - ${answers["GitHub Username"]}
+    - ${answers["Contact Email"]}`
+    fs.writeFile("./SampleREADME.md", output, ()=>{});
   })
   .catch((error) => {
     if (error.isTtyError) {
