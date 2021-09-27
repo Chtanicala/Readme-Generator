@@ -60,9 +60,15 @@ inquirer
 
   ])
   .then((answers) => {
-    console.log(answers)
+    console.log(answers);
+    function renderLicenseBadge(license) {
+        if (license !== 'None') {
+          return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+        }
+        return '';
+    }
     let output = 
-    `# ${answers["Project Title"]}
+    `# ${answers["Project Title"]} ${renderLicenseBadge(answers["Project License(s)"])}
 
     ## Table of Contents
     - [Description](#Description)
@@ -89,8 +95,8 @@ inquirer
     - LICENSEINPUT
     
     ## Questions
-    - ${answers["GitHub Username"]}
-    - ${answers["Contact Email"]}`
+    - Contact username, ${answers["GitHub Username"]}, on Github
+    - Email ${answers["Contact Email"]}`
     fs.writeFile("./SampleREADME.md", output, ()=>{});
   })
   .catch((error) => {
