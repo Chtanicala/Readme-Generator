@@ -1,5 +1,5 @@
 
-# SampleREADME ![GitHub license](https://img.shields.io/badge/license-Harvard-blue.svg)
+# Test Run ![GitHub license](https://img.shields.io/badge/license--blue.svg)
 
 ## Table of Contents
 - [Description](#Description)
@@ -11,20 +11,20 @@
 - [Questions](#Questions)
     
 ## Description
-- This is a test to create a SampleREADME.
+- Test Run
     
 ## Installation
-- Node.js
+- Test
 
 ## Usage
-- Run via cmd line
+- test
 
 ## Contributing
-- Christian
+- tes
 
 ## Tests
-- NONE
+- t
     
 ## Questions
-- Contact username, Chtanicala, on Github
-- Email tanicala.1@osu.edu
+- Contact username, , on Github
+- Email 
