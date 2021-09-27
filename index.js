@@ -17,13 +17,13 @@ inquirer
 
     {
         type: "input",
-        message: "Enter a installation instructions for this project.",
+        message: "Enter installation instructions for this project.",
         name: "Project Installation",
     },
 
     {
         type: "input",
-        message: "Enter a usage information for this project.",
+        message: "Enter usage information for this project.",
         name: "Project Usage",
     },
 
@@ -83,21 +83,21 @@ inquirer
     - ${answers["Project Description"]}
     
     ## Installation
-    - ${answers["Project Input"]}
+    - ${answers["Project Installation"]}
+
     ## Usage
     - ${answers["Project Usage"]}
+
     ## Contributing
     - ${answers["Project Contributor(s)"]}
+
     ## Tests
     - ${answers["Project Test(s)"]}
-    
-    ## License
-    - LICENSEINPUT
     
     ## Questions
     - Contact username, ${answers["GitHub Username"]}, on Github
     - Email ${answers["Contact Email"]}`
-    fs.writeFile("./SampleREADME.md", output, ()=>{});
+    fs.writeFile("./README.md", output, ()=>{});
   })
   .catch((error) => {
     if (error.isTtyError) {
