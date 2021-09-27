@@ -7,7 +7,7 @@
 - [Usage](#Usage)
 - [Contributing](#Contributing)
 - [Links](#Links)
-- [License](#License)
+- [Screenshots](#Screenshots)
 - [Questions](#Questions)
     
 ## Description
@@ -25,6 +25,9 @@
 ## Links
 - https://github.com/Chtanicala/Readme-Generator (Repository)
 - https://github.com/Chtanicala/Readme-Generator/blob/main/SampleREADME.md (SampleREADME.MD)
+
+## Screenshots
+- 
     
 ## Questions
 - Contact username, Chtanicala, on Github
