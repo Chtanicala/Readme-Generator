@@ -6,7 +6,7 @@
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Contributing](#Contributing)
-- [Tests](#Tests)
+- [Links](#Links)
 - [License](#License)
 - [Questions](#Questions)
     
@@ -22,8 +22,9 @@
 ## Contributing
 - Christian Tanicala
 
-## Tests
-- N/A
+## Links
+- https://github.com/Chtanicala/Readme-Generator (Repository)
+- https://github.com/Chtanicala/Readme-Generator/blob/main/SampleREADME.md
     
 ## Questions
 - Contact username, Chtanicala, on Github
