@@ -68,35 +68,36 @@ inquirer
         return '';
     }
     let output = 
-    `# ${answers["Project Title"]} ${renderLicenseBadge(answers["Project License(s)"])}
+    `
+# ${answers["Project Title"]} ${renderLicenseBadge(answers["Project License(s)"])}
 
-    ## Table of Contents
-    - [Description](#Description)
-    - [Installation](#Installation)
-    - [Usage](#Usage)
-    - [Contributing](#Contributing)
-    - [Tests](#Tests)
-    - [License](#License)
-    - [Questions](#Questions)
+## Table of Contents
+- [Description](#Description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Contributing](#Contributing)
+- [Tests](#Tests)
+- [License](#License)
+- [Questions](#Questions)
     
-    ## Description
-    - ${answers["Project Description"]}
+## Description
+- ${answers["Project Description"]}
     
-    ## Installation
-    - ${answers["Project Installation"]}
+## Installation
+- ${answers["Project Installation"]}
 
-    ## Usage
-    - ${answers["Project Usage"]}
+## Usage
+- ${answers["Project Usage"]}
 
-    ## Contributing
-    - ${answers["Project Contributor(s)"]}
+## Contributing
+- ${answers["Project Contributor(s)"]}
 
-    ## Tests
-    - ${answers["Project Test(s)"]}
+## Tests
+- ${answers["Project Test(s)"]}
     
-    ## Questions
-    - Contact username, ${answers["GitHub Username"]}, on Github
-    - Email ${answers["Contact Email"]}`
+## Questions
+- Contact username, ${answers["GitHub Username"]}, on Github
+- Email ${answers["Contact Email"]}`
     fs.writeFile("./README.md", output, ()=>{});
   })
   .catch((error) => {
