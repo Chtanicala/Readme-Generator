@@ -25,9 +25,11 @@
 ## Links
 - https://github.com/Chtanicala/Readme-Generator (Repository)
 - https://github.com/Chtanicala/Readme-Generator/blob/main/SampleREADME.md (SampleREADME.MD)
+- https://watch.screencastify.com/v/CzN6YPLLlmi69xkPr0Ej (Video)
 
 ## Screenshots
-- 
+- ![Application](Photos/NodeApplication.PNG)
+- ![Application](Photos/SampleReadme.PNG)
     
 ## Questions
 - Contact username, Chtanicala, on Github

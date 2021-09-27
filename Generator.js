@@ -77,7 +77,6 @@ inquirer
 - [Usage](#Usage)
 - [Contributing](#Contributing)
 - [Tests](#Tests)
-- [License](#License)
 - [Questions](#Questions)
     
 ## Description
