@@ -98,7 +98,7 @@ inquirer
 ## Questions
 - Contact username, ${answers["GitHub Username"]}, on Github
 - Email ${answers["Contact Email"]}`
-    fs.writeFile("./README.md", output, ()=>{});
+    fs.writeFile("./SampleREADME.md", output, ()=>{});
   })
   .catch((error) => {
     if (error.isTtyError) {

@@ -1,29 +1,30 @@
-# Sample ReadME Generator ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-    ## Table of Contents
-    - [Description](#Description)
-    - [Installation](#Installation)
-    - [Usage](#Usage)
-    - [Contributing](#Contributing)
-    - [Tests](#Tests)
-    - [License](#License)
-    - [Questions](#Questions)
+# SampleREADME ![GitHub license](https://img.shields.io/badge/license-Harvard-blue.svg)
+
+## Table of Contents
+- [Description](#Description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Contributing](#Contributing)
+- [Tests](#Tests)
+- [License](#License)
+- [Questions](#Questions)
     
-    ## Description
-    - This application aims to generate a README for the user through a series of prompts
+## Description
+- This is a test to create a SampleREADME.
     
-    ## Installation
-    - undefined
-    ## Usage
-    - Use node index.js to run in cmd line
-    ## Contributing
-    - Christian Tanicala
-    ## Tests
-    - NONE
+## Installation
+- Node.js
+
+## Usage
+- Run via cmd line
+
+## Contributing
+- Christian
+
+## Tests
+- NONE
     
-    ## License
-    - LICENSEINPUT
-    
-    ## Questions
-    - Chtanicala
-    - christian.tanicala@gmail.com
+## Questions
+- Contact username, Chtanicala, on Github
+- Email tanicala.1@osu.edu

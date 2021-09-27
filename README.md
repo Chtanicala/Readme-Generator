@@ -1,5 +1,5 @@
 
-# test ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+# README.md Generator ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Table of Contents
 - [Description](#Description)
@@ -11,20 +11,20 @@
 - [Questions](#Questions)
     
 ## Description
-- test
+- This application generates a Readme.md file for the user based on the users responses to a series of prompts.
     
 ## Installation
-- test
+- Install Node.js, and inquirer from npm.
 
 ## Usage
-- test
+- Run the cmd "node Generator.js" from the cmd line of a terminal.
 
 ## Contributing
-- test
+- Christian Tanicala
 
 ## Tests
-- test
+- N/A
     
 ## Questions
-- Contact username, test, on Github
-- Email test
+- Contact username, Chtanicala, on Github
+- Email christian.tanicala@gmail.com
